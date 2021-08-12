@@ -44,9 +44,7 @@ client.on('message', message => {
     cmd.run(client, message, args,)
 })
 
-
 client.login(config.token).then(x => console.log(`${client.user.username} Olarak giriş yapıldı bot aktif`)).catch(err => console.log("bot giriş yapamadı"))
-
 
 let sonMesaj = {};
 client.on("message", async message => {
