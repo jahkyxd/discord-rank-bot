@@ -78,13 +78,13 @@ client.on("message", async message => {
     }
 
   if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
-  if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
-  if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
-  if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
-  if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
-  if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
-  if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
-  if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
+  else if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
+  else if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
+  else if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
+  else if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
+  else if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
+  else if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
+  else if (currentlyData.Level === 0) { await message.author.roles.add("verilcek rol"), await message.author.roles.remove("alıncak rol") } //readme yi oku kanka
 
 
     db.set("level.members." + message.author.id, currentlyData);
