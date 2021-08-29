@@ -3,7 +3,7 @@
 # PROJEYİ YAPILANDIRMA
 ``Config.json`` eksiksiz bir şekilde doldurun
 
-mainde (yani jahky.jsde) 78. satırdan itibaren seviye atladıkça rol alıp verme kısmı var o kısımda ``currentlyData.Level === 0`` yazan yerin karşısındaki ``0`` ı kaçıncı seviye olduğunu belirtirsiniz message.author.roles.add("") tırnak içinde verilecek rol, message.author.roles.remove("") tırnak içinde alınacak rol boş bırakırsanız bir sıkıntı çıkmaz
+mainde (yani jahky.jsde) 78. satırdan itibaren seviye atladıkça rol alıp verme kısmı var o kısımda ``currentlyData.Level === 0`` yazan yerin karşısındaki ``0`` ı kaçıncı seviye olduğunu belirtirsiniz message.author.roles.add("") tırnak içinde verilecek rol, message.author.roles.remove("") tırnak içinde alınacak rol boş bırakırsanız bir sıkıntı çıkar o yüzden kullanmayacaksanız silin
 
 # ÖNEMLİ BİLGİLER
 NOT: Glitch kullananlar için glitche uygun ``package.json`` dosyası koymalıdırlar ve tokeni gizlemek isteyen arkadaşlar 48. satırda bulunan ``config.token`` yazısını ``process.env.token`` ile değiştirsinler sadece parantez içinde yazan ``config.token`` yazısı daha sonra ``.env`` dosyasına gelip ``add a variable`` diyip sol taraftaki kutucuğa ``token`` sağ tarafta bulunan kutucuğa ise bot tokeninizi giriyorsunuz
