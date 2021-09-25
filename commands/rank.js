@@ -1,3 +1,4 @@
+const Discord = require("discord.js");
 const qdb = require("quick.db");
 const kdb = new qdb.table("kullanici");
 const adb = new qdb.table("ayarlar");
